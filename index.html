@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="tack.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="display">
+    <h1 id="winner"></h1>
+    <div id="score">
+      <div class="score1">
+        <!-- <img src="img1.webp" alt="profile" /> -->
+        <span id="player1">X</span>
+        <div class="box1" id="player1-score">0</div>
+      </div>
+      <!-- <img src="vs.png" alt="vs" /> -->
+      <div class="score2">
+        <!-- <img src="img2.webp" alt="profile" /> -->
+        <span id="player2">O</span>
+        <div class="box2" id="player2-score">0</div>
+      </div>
+    </div>
+    <div class="gamescreen">
+      <div class="cell1" id="0">
+      </div>
+      <div class="cell2" id="1">
+
+      </div>
+      <div class="cell3" id="2">
+
+      </div>
+      <div class="cell4" id="3">
+
+      </div>
+      <div class="cell5" id="4">
+
+      </div>
+      <div class="cell6" id="5">
+
+      </div>
+      <div class="cell7" id="6">
+
+      </div>
+      <div class="cell8" id="7">
+
+      </div>
+      <div class="cell9" id="8">
+
+      </div>
+
+
+    </div>
+    <button class="b1" onclick="restart()">restart</button>
+    <button class="b2" onclick="reset()">reset </button>
+  </div>
+  <form>
+    <div id="form">
+      <h1>TIC TAC TOE</h1>
+      <div class="player">
+        <label for="player-1">Player1:-</label>
+        <input type="text" id="player-1" />
+      </div>
+      <div class="playerr2">
+        <label for="player-2">Player2:-</label>
+        <input type="text" id="player-2" />
+      </div>
+      <button class="b3" >start </button>
+      <button class="b4" >start without name </button>
+
+    </div>
+  </form>
+  <script src="toe.js"></script>
+
+</body>
+
+</html>

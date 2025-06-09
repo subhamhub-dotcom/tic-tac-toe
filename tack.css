@@ -1,0 +1,301 @@
+#display {
+  border: 1px solid black;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(249, 182, 12);
+  position: relative;
+  display: none;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gamescreen {
+   /* border:2px solid white;  */
+  height: 56vh;
+  width: 430px;
+  position: absolute;
+  top: 150px;
+  left: 420px;
+  padding: 10px;
+  border-radius: 25px;
+
+}
+
+.cell1 {
+  border: 1px solid white;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 40px;
+}
+
+.cell1:hover {
+  background-color: rgb(56, 144, 216);
+}
+
+.cell2 {
+  border: 1px solid white;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  left: 150px;
+  font-size: 60px;
+  padding-top: 40px;
+  text-align: center;
+
+}
+
+.cell2:hover {
+  background-color: rgb(237, 107, 209);
+  size: 20.px;
+}
+
+.cell3 {
+  border: 1px solid white;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  left: 290px;
+  font-size: 60px;
+  padding-top: 40px;
+  text-align: center;
+
+}
+
+.cell3:hover {
+  background-color: rgb(56, 144, 216);
+  size: 20.px;
+}
+
+.cell4 {
+  border: 1px solid white;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  top: 150px;
+  font-size: 60px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.cell4:hover {
+  background-color: rgb(237, 107, 209);
+  size: 20.px;
+}
+
+.cell5 {
+  border: 1px solid white;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  left: 150px;
+  top: 150px;
+  font-size: 60px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.cell5:hover {
+  background-color: rgb(56, 144, 216);
+  size: 20.px;
+}
+
+.cell6 {
+  border: 1px solid white;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  left: 290px;
+  top: 150px;
+  font-size: 60px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.cell6:hover {
+  background-color: rgb(237, 107, 209);
+  size: 20.px;
+}
+
+.cell7 {
+  border: 1px solid white;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  top: 290px;
+  font-size: 60px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.cell7:hover {
+  background-color: rgb(56, 144, 216);
+  size: 20.px;
+}
+
+.cell8 {
+  border: 1px solid white;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  left: 150px;
+  top: 290px;
+  font-size: 60px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.cell8:hover {
+  background-color: rgb(237, 107, 209);
+  size: 20.px;
+}
+
+.cell9 {
+  border: 1px solid white;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  left: 290px;
+  top: 290px;
+  font-size: 60px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.cell9:hover {
+  background-color: rgb(56, 144, 216);
+  size: 20.px;
+}
+
+.b1 {
+  border: 1px solid black;
+  position: absolute;
+  left: 700px;
+  top: 600px;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: chocolate;
+}
+
+.b2 {
+  border: 1px solid black;
+  position: absolute;
+  left: 500px;
+  top: 600px;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: chocolate;
+}
+
+#winner {
+
+  height: 80px;
+  width: 160px;
+  position: absolute;
+  left: 900px;
+  top: 400px;
+}
+
+#form {
+  border: 1px solid black;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(230, 122, 68);
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  font-family: "Poetsen One", sans-serif;
+
+}
+
+#form .b3 {
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  bottom: 440px;
+  left: 700px;
+  font-size: 18px;
+  background-color: darkgrey;
+  border-radius: 25px;
+}
+
+#form .b4 {
+  position: absolute;
+  height: 64px;
+  width: 100px;
+  bottom: 340px;
+  left: 700px;
+  font-size: 18px;
+  background-color: darkgrey;
+  border-radius: 25px;
+}
+
+#player1 {
+  border: 1px solid rgb(239, 231, 231);
+  height: 80px;
+  width: 70px;
+  position: absolute;
+  left: 300px;
+  top: 160px;
+  text-align: center;
+}
+
+#player2 {
+  border: 1px solid rgb(230, 225, 225);
+  height: 80px;
+  width: 70px;
+  position: absolute;
+  left: 900px;
+  top: 160px;
+  text-align: center;
+}
+
+.box1 {
+  border: 1px solid rgb(211, 202, 202);
+  height: 20px;
+  width: 30px;
+  position: absolute;
+  top: 200px;
+  left: 320px;
+  text-align: center;
+}
+
+.box2 {
+  border: 1px solid rgb(226, 211, 211);
+  height: 20px;
+  width: 30px;
+  position: absolute;
+  top: 200px;
+  left: 920px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  #form .b3 {
+    bottom: 230px;
+    left: 124px;
+  }
+  #form .b4 {
+    bottom: 137px;
+    left: 124px;
+  }
+  #form {
+    height: 100vh;
+  }
+  h1{
+    margin-bottom: 158px;
+   font-size: 50px; 
+  }
+  .playerr2{
+    position: absolute;
+    top: 338px;
+
+  }
+}
